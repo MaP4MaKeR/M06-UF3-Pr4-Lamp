@@ -5,11 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Part 1</title>
+    <style>
+        .center {
+            margin: auto;
+        }
+
+        img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -250px; /* Half the height */
+            margin-left: -250px; /* Half the width */
+        }
+    </style>
     <!-- <link rel="stylesheet" type="text/css" href="css/part1.css"> -->
     <script src="jquery/jquery-3.4.1.min.js"></script>
 </head>
 <body>
-    <img id="lamp" style="height: 300px" src="img/lamp_off.jpg" />
+    <div class="center">
+        <img id="lamp" src="img/lamp_off.jpg" />
+    </div>    
 </body>
     <script src="js/part1.js"></script>
 </html>
